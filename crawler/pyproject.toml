@@ -1,0 +1,14 @@
+[project]
+name = "crawler"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "browser-use>=0.11.13",
+    "crawl4ai>=0.8.6",
+    "crewai[tools]>=1.14.5",
+    "dotenv>=0.9.9",
+    "fastapi>=0.136.3",
+    "uvicorn>=0.48.0",
+]
